@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FYP Report Generator</title>
+    <!-- In an Electron app with a build step, Tailwind CSS is compiled into a static CSS file and linked here -->
+    <!-- You will need to set up a build process (e.g., with Vite or Webpack) to generate this CSS and the index.js script below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "electron": "https://aistudiocdn.com/electron@^39.1.2",
+    "sqlite3": "https://aistudiocdn.com/sqlite3@^5.1.7",
+    "process": "https://aistudiocdn.com/process@^0.11.10"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-950 text-gray-300">
+    <div id="root"></div>
+    <!-- The React application is loaded from a single bundled JavaScript file -->
+    <script defer src="./index.js"></script>
+  </body>
+</html>

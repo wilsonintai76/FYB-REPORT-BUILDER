@@ -1,0 +1,5 @@
+{
+  "name": "Final Year Project Report Generator",
+  "description": "An interactive web application that presents a final year project report on a remote-controlled lawn mower, complete with an AI-powered Q&A assistant to explore the project's details.",
+  "requestFramePermissions": []
+}
